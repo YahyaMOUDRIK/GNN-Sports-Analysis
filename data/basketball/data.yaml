@@ -1,0 +1,14 @@
+path: C:\Users\Asus\Desktop\GNN Sport Analysis\data\basketball
+train: train/images
+val: valid/images
+test: test/images
+
+names: ['ball', 'hoop']
+nc: 2
+
+roboflow:
+  workspace: yahyas-workspace-souas
+  project: gnn-sport-analysis
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yahyas-workspace-souas/gnn-sport-analysis/dataset/2
